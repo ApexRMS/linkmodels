@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package name="linkmodels" displayName="Link Models" description="A demonstration package that links two models" version="1.0.0">
+
+	<requiresPackage name="dgsim"/>
+	<requiresPackage name="demosales"/>
+
+	<transformer
+		name="Main"
+		displayName="Link Models"
+	  className="LinkModels.Main"
+	  classAssembly="LinkModels">
+	</transformer>
+
+</package>
